@@ -5,8 +5,8 @@
     font-family: 'Arial', 'Helvetica', sans-serif;
 }
 .cabeçalho {
-    background-color: #ffffff;
-    border-bottom: 4px solid #005a36;
+    background-color: #005a36;
+    border-bottom: 4px solid white;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
     width: 100%;
 }
@@ -33,16 +33,16 @@
     object-fit: contain;
 }
 
-.nomee-eeep {
+.nome.eeep {
     display: flex;
     flex-direction: column;
     text-align: left;
 }
 
-.NOME {
+.name {
     font-size: 1.05rem;
     font-weight: 800;
-    color: #005a36;
+    color: #fff;
     margin-bottom: 3px;
     text-transform: uppercase;
     letter-spacing: 0.3px;
@@ -51,16 +51,9 @@
 .continuação {
     font-size: 0.8rem;
     font-weight: 600;
-    color: #555555;
+    color: #fff;
     text-transform: uppercase;
 }
-
-.bloco-governo {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-}
-
 
 .rodape {
     background-color: #005a36;
@@ -167,36 +160,6 @@
     color: #d0d0d0;
 }
 
-/* =========================
-   RESPONSIVIDADE
-   ========================= */
-@media (max-width: 768px) {
-    .container-cabeçalho {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        gap: 15px;
-    }
-
-    .bloco-escola {
-        flex-direction: right; 
-        text-align: right;
-    }
-
-    .nomee-eeep {
-        text-align: center;
-    }
-
-    .bloco-governo {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .container-rodape {
-        flex-direction: column;
-        gap: 30px;
-    }
-}
 .menu{
   list-style: none;
   padding: 0;
@@ -205,7 +168,7 @@
   box-shadow: 0 4px 6px rgba(0,0,0,0.05);
   border-radius: 8px
 }
-.menu a{
+.menu a {
   text-decoration: none;
   color: black;
   padding: 14px 20px;
@@ -319,12 +282,17 @@
   width: 100%;
 }
 .slide{
-  min-width: 100%;
-  box-sizing: border-box;
+  width: 100%;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 0 24px;
 }
 .slide img{
   width: 100%;
-  display: block;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 @keyframes slideInfinito {
   0% { transform: translateX(0); }
@@ -384,5 +352,4 @@
 
 .manual-btn:hover{
   background-color: #fff;
-  }
-  
+}
