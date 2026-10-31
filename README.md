@@ -32,41 +32,6 @@ O projeto está sendo desenvolvido utilizando tecnologias fundamentais do desenv
 | Git | Controle de versões. |
 | GitHub | Hospedagem do código-fonte. |
 
-## Estrutura de diretórios
-
-PROJETO-ESCOLA/
-│
-├── assets/
-│   ├── images/
-│   │   └── Imagens utilizadas no site
-│   │
-│   └── icons/
-│       └── Ícones da interface
-│
-├── css/
-│   └── Arquivos de estilização adicionais
-│
-├── js/
-│   └── Arquivos JavaScript
-│
-├── pages/
-│   ├── cursos/
-│   │   ├── administracao.html
-│   │   ├── logistica.html
-│   │   ├── contabilidade.html
-│   │   └── informatica.html
-│   │
-│   ├── sobre.html
-│   ├── contato.html
-│   ├── noticias.html
-│   └── cursos.html
-│
-├── index.html
-├── style.css
-└── README.md
-
-*Observação: a estrutura representa a organização planejada. Alguns diretórios e arquivos poderão ser adicionados conforme o desenvolvimento.*
-
 ## Seções do site
 
 ### 1. Página inicial
