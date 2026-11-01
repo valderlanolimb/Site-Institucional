@@ -5,16 +5,14 @@
     font-family: 'Arial', 'Helvetica', sans-serif;
 }
 
-/*---------- CABEÇALHO ----------*/
-
-.cabeçalho {
+.header{
     background-color: white;
     border-bottom: 4px solid #005a36;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
     width: 100%;
 }
 
-.container-cabeçalho {
+.container-header{
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
@@ -24,25 +22,25 @@
     padding: 12px 24px;
 }
 
-.bloco-escola {
+.school-block{
     display: flex;
     align-items: center;
     gap: 15px; 
 }
 
-.logo-escola img {
+.school-logo img{
     max-height: 75px;
     width: auto;
     object-fit: contain;
 }
 
-.nome.eeep {
+.name-eeep{
     display: flex;
     flex-direction: column;
     text-align: left;
 }
 
-.name {
+.name{
     font-size: 1.05rem;
     font-weight: 800;
     color: #005a36;
@@ -51,14 +49,14 @@
     letter-spacing: 0.3px;
 }
 
-.continuação {
+.continuation{
     font-size: 0.8rem;
     font-weight: 600;
     color: black;
     text-transform: uppercase;
 }
 
-.button {
+.button{
     display: inline-block;
     background-color: white;
     color: black;
@@ -72,14 +70,14 @@
     transition: all 0.3s ease;
 }
 
-.button:hover {
+.button:hover{
     background-color: #005a36;
     transform: translateY(-2px);
     box-shadow: 0 6px 12px rgba(0,0,0,0.15);
     color: white;
 }
 
-.button2 {
+.button2{
     display: inline-block;
     background-color: green;
     color: white;
@@ -93,20 +91,18 @@
     transition: all 0.3s ease;
 }
 
-.button2:hover {
+.button2:hover{
     background-color: #005a36;
     transform: translateY(-2px);
     box-shadow: 0 6px 12px rgba(0,0,0,0.15);
     color: white;
 }
 
-/*---------- HERO ----------*/
-
-section.hero {
+section.hero{
   background-color: #005a36;
 }
 
-.hero {
+.hero{
   display: flex;
   align-items: center;
   gap: 120px;
@@ -119,12 +115,12 @@ section.hero {
   color: white;
 }
 
-.hero-txt p {
+.hero-txt p{
   font-size: 30px;
   color: white;
 }
 
-.button3 {
+.button3{
   display: inline-block;
   background-color: #F2E900;
   color: #00452B;
@@ -138,50 +134,48 @@ section.hero {
   transition: all 0.3s ease;
 }
 
-.button3:hover {
+.button3:hover{
   background-color: #FFFFFF;
   transform: translateY(-2px);
   box-shadow: 0 6px 12px rgba(0,0,0,0.15);
 }
 
-.aluna {
+.student{
     width: 90%;
     max-width: 900px;
     height: auto;
     object-fit: contain;
 }
 
-.hero p {
+.hero p{
     font-size: 1.05rem;
     line-height: 1.7;
     margin-bottom: 24px;
     color: #E8F3ED;
 }
 
-/*---------- CURSOS ----------*/
-
-.cursos {
+.course{
     padding: 60px 24px;
     background: #f5f7f5;
 }
 
-.titulo-cursos {
+.course-title{
     text-align: center;
     margin-bottom: 40px;
 }
 
-.titulo-cursos h1 {
+.course-title h1{
     color: #005a36;
     font-size: 2rem;
     margin-bottom: 12px;
 }
 
-.titulo-cursos p {
+.course-title p{
     color: #666;
     font-size: 1rem;
 }
 
-.grade-cursos {
+.grade-courses{
     max-width: 1200px;
     margin: auto;
     display: grid;
@@ -189,7 +183,7 @@ section.hero {
     gap: 30px;
 }
 
-.card-curso {
+.card-course{
     background: white;
     border-radius: 12px;
     overflow: hidden;
@@ -197,63 +191,61 @@ section.hero {
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
-.card-curso:hover {
+.card-course:hover{
     transform: translateY(-6px);
     box-shadow: 0 8px 20px rgba(0,0,0,0.12);
 }
 
-.card-curso img {
+.card-course img{
     width: 100%;
     height: 230px;
     object-fit: cover;
 }
 
-.conteudo-curso {
+.course-content{
     padding: 25px;
 }
 
-.categoria {
+.category{
     color: #00834e;
     font-size: 0.8rem;
     font-weight: bold;
     text-transform: uppercase;
 }
 
-.conteudo-curso h2 {
+.course-content h2{
     color: #005a36;
     font-size: 1.4rem;
     margin: 12px 0;
 }
 
-.conteudo-curso p {
+.course-content p{
     color: #555;
     font-size: 0.95rem;
     line-height: 1.6;
     margin-bottom: 20px;
 }
 
-.conteudo-curso a {
+.course-content a{
     display: inline-block;
     color: #005a36;
     font-weight: bold;
     text-decoration: none;
 }
 
-.conteudo-curso a:hover {
+.course-content a:hover{
     color: #00834e;
     text-decoration: underline;
 }
 
-/*---------- RODAPÉ ----------*/
-
-.rodape {
+.footer{
     background-color: #005a36;
     color: #ffffff;
     padding-top: 40px;
     margin-top: 40px;
 }
 
-.container-rodape {
+.container-footer{
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 24px 40px 24px;
@@ -263,42 +255,42 @@ section.hero {
     gap: 40px;
 }
 
-.coluna-rodape {
+.column-{
     flex: 1;
     min-width: 220px;
 }
 
-.logo-rodape {
+.footer-logo{
     display: flex;
     align-items: center;
     gap: 10px;
     margin-bottom: 15px;
 }
 
-.logo-rodape img {
+.footer-logo img{
     max-height: 40px;
     width: auto;
 }
 
-.logo-rodape span {
+.footer-logo span{
     font-weight: 800;
     font-size: 1rem;
     letter-spacing: 0.5px;
 }
 
-.texto-rodape {
+.footer-text{
     font-size: 0.85rem;
     line-height: 1.4;
     color: #e0e0e0;
     margin-bottom: 20px;
 }
 
-.redes-sociais {
+.social-media{
     display: flex;
     gap: 12px;
 }
 
-.redes-sociais a {
+.social-media a{
     color: #ffffff;
     background-color: rgba(255, 255, 255, 0.1);
     padding: 6px 12px;
@@ -308,11 +300,11 @@ section.hero {
     transition: background 0.3s;
 }
 
-.redes-sociais a:hover {
+.social-media a:hover{
     background-color: rgba(255, 255, 255, 0.25);
 }
 
-.coluna-rodape h3 {
+.footer-column h3{
     font-size: 1rem;
     font-weight: 700;
     margin-bottom: 15px;
@@ -323,27 +315,27 @@ section.hero {
     display: inline-block;
 }
 
-.coluna-rodape ul {
+.footer-column ul{
     list-style: none;
 }
 
-.coluna-rodape ul li {
+.footer-column ul li{
     margin-bottom: 8px;
 }
 
-.coluna-rodape ul li a {
+.footer-column ul li a{
     color: #e0e0e0;
     text-decoration: none;
     font-size: 0.85rem;
     transition: color 0.2s;
 }
 
-.coluna-rodape ul li a:hover {
+.footer-column ul li a:hover{
     color: #ffffff;
     text-decoration: underline;
 }
 
-.rodape-inferior {
+.footer-copyright{
     border-top: 1px solid rgba(255, 255, 255, 0.15);
     text-align: center;
     padding: 15px 24px;
