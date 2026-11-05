@@ -28,7 +28,6 @@ O projeto está sendo desenvolvido utilizando tecnologias fundamentais do desenv
 |---|---|
 | HTML5 | Estrutura e organização do conteúdo. |
 | CSS3 | Estilização, layout e responsividade. |
-| JavaScript | Interatividade e funcionalidades. |
 | Git | Controle de versões. |
 | GitHub | Hospedagem do código-fonte. |
 
